@@ -1,0 +1,27 @@
+.header{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#301a54, #9a60f7);
+}
+
+.header > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 0px 10px 0px 10px;
+    transition: 0.2s ease-in;
+}
+
+.header > div:hover{
+    height: 310px;
+    width: 310px;
+}
