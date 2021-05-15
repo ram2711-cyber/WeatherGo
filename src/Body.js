@@ -28,7 +28,7 @@ function Body() {
         })
         let got = value;
         got.length ?
-        await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${got}&appid=69930d644c2b1777fb23288b4c827118`).then((res)=>{
+        await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${got}&appid=69930d644c2b1777fb23288b4c827118`).then((res)=>{
             dispatch({
                 type:'SET_LOADING',
                 value:false
